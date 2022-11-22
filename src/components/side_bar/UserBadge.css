@@ -1,0 +1,8 @@
+
+
+.user-avatar{
+    background-color: gray;
+    border-radius: 50px;
+    width: 15%;
+    justify-self: flex-end;
+}
