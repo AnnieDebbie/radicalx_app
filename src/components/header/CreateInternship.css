@@ -1,0 +1,11 @@
+.create-internship-btn{
+    border: none;
+    border-radius: 12px;
+    background-color:#793EF5;
+    padding: 12px;
+    color:white;
+    display: flex;
+    align-items: center;
+    gap:5px
+
+}
