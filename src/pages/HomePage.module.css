@@ -1,3 +1,9 @@
 .homepage-container{
     display: flex;
 }
+
+.not-side{
+    display: flex;
+    flex-direction: column;
+}
+
