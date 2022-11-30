@@ -5,6 +5,7 @@ export const assets = {
     internships: require("./icons/book.svg").default,
     jobs: require("./icons/briefcase.svg").default,
     settings: require("./icons/setting-2.svg").default,
+    addSquare:require("./icons/add-square.svg").default,
   },
 };
 

@@ -1,0 +1,11 @@
+.internship-insights-section{
+    display: flex;
+    background-color: #FFFFFF;
+    gap: 10px;
+}
+
+.internship-insights-container{
+    background-color: #F6F5F9;
+    border-radius: 16px;
+    flex-basis: 30%;
+}
