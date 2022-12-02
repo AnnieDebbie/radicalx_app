@@ -1,14 +1,14 @@
-import { totalEnrollmentsData } from "./StatisticsData";
+import { completionData } from "./StatisticsData";
 import { useState } from "react";
 import { Line } from "react-chartjs-2";
 
-const TotalEnrollmentsChart = (props) => {
+const CompletionsChart = (props) => {
   const [chartData, setChartData] = useState({
     // labels: ["", "", "", "", ""],
-    labels: totalEnrollmentsData.map((data) => ""),
+    labels: completionData.map((data) => ""),
     datasets: [
       {
-        data: totalEnrollmentsData.map((data) => data.numberOfEnrollments),
+        data: completionData.map((data) => data.numberOfCompletions),
         // pointBackgroundColor: "#f8dfff",
         fill: {
           target: "origin",
@@ -22,4 +22,4 @@ const TotalEnrollmentsChart = (props) => {
   return <Line className="chart" data={chartData} options={props.options} />;
 };
 
-export default TotalEnrollmentsChart;
+export default CompletionsChart;

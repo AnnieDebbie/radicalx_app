@@ -7,9 +7,9 @@
     width: 132.04px;
     display: flex;
     align-items: center;
-    border-right: 2px solid #EFEFEF;
 }
 
-.chart-container+.chart-container {
-    margin-left: -3px;
+.chart-container>.chart {
+
+    border-right: 2px solid #EFEFEF;
 }
