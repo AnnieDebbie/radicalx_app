@@ -10,10 +10,10 @@ const CompletionsChart = (props) => {
   const optionsExtended = {
     title: {
       display: true,
-      text: [sum, "Qualified Candidates"],
+      text: [sum, "Completion"],
     },
     min: 0,
-    max: 65000,
+    max: 100000,
   };
 
   const { title, min, max } = optionsExtended;

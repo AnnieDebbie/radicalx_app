@@ -8,14 +8,22 @@ const TotalEnrollmentsChart = (props) => {
   const sum = totalEnrollmentsData.reduce((acc, element, idx) => {
     return acc + element.numberOfEnrollments;
   }, 0);
-  const title = {
-    display: true,
-    text: [sum, "Total Enrollments"],
+  const optionsExtended = {
+    title: {
+      display: true,
+      text: [sum, "Total Enrollments"],
+    },
+    min: 0,
+    max: 100000,
   };
+
+  const { title, min, max } = optionsExtended;
 
   const options = cloneDeep(props.options);
 
   options.scales.x.title = title;
+  options.scales.y.max = max;
+  options.scales.y.min = min;
 
   const [chartData, setChartData] = useState({
     // labels: ["", "", "", "", ""],

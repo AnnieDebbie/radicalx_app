@@ -10,10 +10,10 @@ const ReachedOutChart = (props) => {
   const optionsExtended = {
     title: {
       display: true,
-      text: [sum, "Qualified Candidates"],
+      text: [sum, "Reached Out"],
     },
     min: 0,
-    max: 375,
+    max: 1500,
   };
 
   const { title, min, max } = optionsExtended;

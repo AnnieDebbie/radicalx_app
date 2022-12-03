@@ -1,11 +1,22 @@
-.internship-insights-section{
+.internship-insights-section {
     display: flex;
     background-color: #FFFFFF;
     gap: 10px;
+    padding: 16px;
 }
 
-.internship-insights-container{
+.internship-insights-container {
     background-color: #F6F5F9;
     border-radius: 16px;
-    flex-basis: 30%;
+    flex-basis: 248px;
+    padding: 16px;
+}
+
+.internship-insights-content {
+    font-family: Space Grotesk;
+    font-style: "regular";
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: "top";
+    letter-spacing: 0.3px;
 }

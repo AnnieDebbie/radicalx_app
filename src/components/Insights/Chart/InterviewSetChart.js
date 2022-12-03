@@ -8,14 +8,22 @@ const InterviewSetChart = (props) => {
     return acc + element.interviewSet;
   }, 0);
 
-
-  const title = {
-    display: true,
-    text: [sum, "Interview Set" ],
+  const optionsExtended = {
+    title: {
+      display: true,
+      text: [sum, "Interview Set"],
+    },
+    min: 0,
+    max: 1350,
   };
-  
+
+  const { title, min, max } = optionsExtended;
+
   const options = cloneDeep(props.options);
+
   options.scales.x.title = title;
+  options.scales.y.max = max;
+  options.scales.y.min = min;
 
   const [chartData, setChartData] = useState({
     labels: interviewSetData.map((data) => ""),

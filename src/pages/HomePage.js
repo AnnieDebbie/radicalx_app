@@ -9,9 +9,8 @@ const HomePage = () => {
       <SideBar />
 
       <div className={classes["not-side"]}>
-      <Header />
-      <InsightsSection />
-
+        <Header />
+        <InsightsSection />
       </div>
     </div>
   );

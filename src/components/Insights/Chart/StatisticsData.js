@@ -29,21 +29,21 @@ export const completionData = [
     date: new Date(2022, 2, 1),
   },
 
-  { id: "c2", numberOfCompletions: 9500, date: new Date(2022, 2, 2) },
+  { id: "c2", numberOfCompletions: 10500, date: new Date(2022, 2, 2) },
 
   {
     id: "c3",
-    numberOfCompletions: 9500,
+    numberOfCompletions: 10000,
     date: new Date(2022, 2, 3),
   },
-  { id: "c4", numberOfCompletions: 9500, date: new Date(2022, 2, 4) },
+  { id: "c4", numberOfCompletions: 9000, date: new Date(2022, 2, 4) },
   {
     id: "c5",
     numberOfCompletions: 7000,
     date: new Date(2022, 2, 5),
   },
-  { id: "c6", numberOfCompletions: 9000, date: new Date(2022, 2, 6) },
-  { id: "c7", numberOfCompletions: 9000, date: new Date(2022, 2, 7) },
+  { id: "c6", numberOfCompletions: 8500, date: new Date(2022, 2, 6) },
+  { id: "c7", numberOfCompletions: 8500, date: new Date(2022, 2, 7) },
 ];
 
 export const qualifiedCandidatesData = [
@@ -73,49 +73,49 @@ export const qualifiedCandidatesData = [
 export const reachedOutData = [
   {
     id: "r1",
-    numberOfReaches: 500,
+    numberOfReaches: 75,
     date: new Date(2022, 2, 1),
   },
 
-  { id: "r2", numberOfReaches: 480, date: new Date(2022, 2, 2) },
+  { id: "r2", numberOfReaches: 65, date: new Date(2022, 2, 2) },
 
   {
     id: "r3",
-    numberOfReaches: 450,
+    numberOfReaches: 60,
     date: new Date(2022, 2, 3),
   },
-  { id: "r4", numberOfReaches: 420, date: new Date(2022, 2, 4) },
+  { id: "r4", numberOfReaches: 55, date: new Date(2022, 2, 4) },
   {
     id: "r5",
-    numberOfReaches: 400,
+    numberOfReaches: 45,
     date: new Date(2022, 2, 5),
   },
-  { id: "r6", numberOfReaches: 380, date: new Date(2022, 2, 6) },
-  { id: "r7", numberOfReaches: 350, date: new Date(2022, 2, 7) },
+  { id: "r6", numberOfReaches: 40, date: new Date(2022, 2, 6) },
+  { id: "r7", numberOfReaches: 35, date: new Date(2022, 2, 7) },
 ];
 
 export const interviewSetData = [
   {
     id: "i1",
-    interviewSet: 350,
+    interviewSet: 46,
     date: new Date(2022, 2, 1),
   },
 
-  { id: "i2", interviewSet: 280, date: new Date(2022, 2, 2) },
+  { id: "i2", interviewSet: 44, date: new Date(2022, 2, 2) },
 
   {
     id: "i3",
-    interviewSet: 200,
+    interviewSet: 43,
     date: new Date(2022, 2, 3),
   },
-  { id: "i4", interviewSet: 150, date: new Date(2022, 2, 4) },
+  { id: "i4", interviewSet: 41, date: new Date(2022, 2, 4) },
   {
     id: "i5",
-    interviewSet: 150,
+    interviewSet: 39,
     date: new Date(2022, 2, 5),
   },
-  { id: "i6", interviewSet: 180, date: new Date(2022, 2, 6) },
-  { id: "i7", interviewSet: 350, date: new Date(2022, 2, 7) },
+  { id: "i6", interviewSet: 42, date: new Date(2022, 2, 6) },
+  { id: "i7", interviewSet: 45, date: new Date(2022, 2, 7) },
 ];
 
 export const hiredData = [
