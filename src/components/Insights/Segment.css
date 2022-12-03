@@ -2,6 +2,8 @@
     display: flex;
     background: #F2F2F2;
     padding: 8px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .segment-buttons {
@@ -10,10 +12,10 @@
     height: 32px;
     text-transform: capitalize;
     border-radius: 8px;
-    padding:6px;
+    padding: 6px;
 }
 
-.segment-buttons:nth-of-type(1){
+.segment-buttons:nth-of-type(1) {
     margin-right: 12px;
 }
 
@@ -22,23 +24,30 @@
     background: #793EF5;
 }
 
-.hidden {
-    display: none;
-}
 
-.container {
-    width: 200px;
+.date-container {
+    width: 120px;
     overflow: hidden;
-    border:  1px solid black;
     position: relative;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    padding: 6px;
 }
 
-.container span{
+
+.date-container span {
     position: absolute;
+    left: 30px;
+    bottom: 5px;
 }
 
 .date {
-    color: #F2F2F2;
-    width: 125px;
+    width: 15px;
     border: 0px none transparent;
+    position: absolute;
+    left: 5px;
+    bottom: 3px;
+
 }

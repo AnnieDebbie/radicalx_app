@@ -13,23 +13,24 @@ const ProgressSegmentButtons = (props) => {
   };
   return (
     <div className="segment-container">
-      {segments.map((item, idx) => (
-        <button
-          key={idx}
-          onClick={() => onSegmentClick(idx)}
-          className={`segment-buttons ${
-            idx === activeIndex ? "active" : "inactive"
-          }`}
-        >
-          {" "}
-          {item}{" "}
-        </button>
-      ))}
+      <div>
+        {segments.map((item, idx) => (
+          <button
+            key={idx}
+            onClick={() => onSegmentClick(idx)}
+            className={`segment-buttons ${
+              idx === activeIndex ? "active" : "inactive"
+            }`}
+          >
+            {item}
+          </button>
+        ))}
+      </div>
 
-      <button className="container">
-        <span>Select dates</span>
-        <input className="date" type="date" id="" />
-      </button>
+        <button className="date-container">
+          <span>Select dates</span>
+          <input className="date" type="date" />
+        </button>
     </div>
   );
 };

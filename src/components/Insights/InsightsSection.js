@@ -7,7 +7,7 @@ const InsightsSection = () => {
   return (
     <section className={classes["internship-insights-section"]}>
       <InternshipInsights />
-      <div>
+      <div className={classes["internship-insights-segment-charts"]}>
         <ProgressSegmentButtons />
         <AllCharts />
       </div>
