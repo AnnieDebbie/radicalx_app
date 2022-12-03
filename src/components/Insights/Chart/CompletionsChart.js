@@ -1,10 +1,29 @@
 import { completionData } from "./StatisticsData";
 import { useState } from "react";
 import { Line } from "react-chartjs-2";
+import cloneDeep from "lodash/cloneDeep";
 
 const CompletionsChart = (props) => {
+  const sum = completionData.reduce((acc, element, idx) => {
+    return acc + element.numberOfCompletions;
+  }, 0);
+  const optionsExtended = {
+    title: {
+      display: true,
+      text: [sum, "Qualified Candidates"],
+    },
+    min: 0,
+    max: 65000,
+  };
+
+  const { title, min, max } = optionsExtended;
+
+  const options = cloneDeep(props.options);
+
+  options.scales.x.title = title;
+  options.scales.y.max = max;
+  options.scales.y.min = min;
   const [chartData, setChartData] = useState({
-    // labels: ["", "", "", "", ""],
     labels: completionData.map((data) => ""),
     datasets: [
       {
@@ -19,7 +38,7 @@ const CompletionsChart = (props) => {
     ],
   });
 
-  return <Line className="chart" data={chartData} options={props.options} />;
+  return <Line className="chart" data={chartData} options={options} />;
 };
 
 export default CompletionsChart;

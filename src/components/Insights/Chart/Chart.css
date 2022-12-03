@@ -1,15 +1,12 @@
-.chart-section {
-    width: 80%;
-}
-
 .chart-container {
     position: relative;
     width: 132.04px;
+    height: 218px;
     display: flex;
     align-items: center;
 }
 
 .chart-container>.chart {
-
     border-right: 2px solid #EFEFEF;
+    height: 174px;
 }
