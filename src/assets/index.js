@@ -1,13 +1,18 @@
 export const assets = {
-  icons: {
-    dashboard: require("./icons/dashboard-3.svg").default,
-    apprenteceships: require("./icons/medal-star.svg").default,
-    internships: require("./icons/book.svg").default,
-    jobs: require("./icons/briefcase.svg").default,
-    settings: require("./icons/setting-2.svg").default,
-    addSquare:require("./icons/add-square.svg").default,
-  },
+  
 };
+
+export const icons={
+  dashboard: require("./icons/dashboard-3.svg").default,
+  apprenteceships: require("./icons/medal-star.svg").default,
+  internships: require("./icons/book.svg").default,
+  jobs: require("./icons/briefcase.svg").default,
+  settings: require("./icons/setting-2.svg").default,
+  addSquare: require("./icons/add-square.svg").default,
+  chart: require("./icons/chart.svg").default,
+  more: require("./icons/more-2.svg").default,
+  profile: require("./icons/profile-2user.svg").default,
+}
 
 // BIG W: FINALLY FIGURED OUT HOW TO DYNAMICALLY IMPORT IMAGES
 /* so what was the issue? refer to issue vn

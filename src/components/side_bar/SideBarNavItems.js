@@ -1,14 +1,14 @@
 import React from "react";
-import { assets } from "../../assets";
+import { icons } from "../../assets";
 import classes from "./SideBarItems.module.css";
 
 const SideBarNavItems = () => {
   const sideBarNavItems = [
-    { name: "dashboard", icon: `${assets.icons.dashboard}` },
-    { name: "apprenteceships", icon: `${assets.icons.apprenteceships}` },
-    { name: "internships", icon: `${assets.icons.internships}` },
-    { name: "jobs", icon: `${assets.icons.jobs}` },
-    { name: "settings", icon: `${assets.icons.settings}` },
+    { name: "dashboard", icon: `${icons.dashboard}` },
+    { name: "apprenteceships", icon: `${icons.apprenteceships}` },
+    { name: "internships", icon: `${icons.internships}` },
+    { name: "jobs", icon: `${icons.jobs}` },
+    { name: "settings", icon: `${icons.settings}` },
   ];
   return (
     <div>
