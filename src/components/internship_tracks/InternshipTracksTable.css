@@ -1,0 +1,64 @@
+.align-cols {
+    text-align: left;
+    padding: 16px;
+}
+
+.col-1 {
+    width: 385px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+td {
+    font-size: 12px;
+}
+
+span {
+    display: block;
+}
+
+.span-bold{
+    font-weight: bold;
+}
+
+.col-2 {
+    width: 200px;
+}
+
+.col-3 {
+    width: 180px;
+    
+}
+
+.span-normal{
+    font-weight: normal;
+}
+
+.span-purple{
+    background-color: #F0EFFD;
+    color:#793EF5;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: "center";
+}
+
+.bars-col {
+    position: relative;
+    max-width: 190px;
+    max-height: 60px;
+    padding: 16px;
+}
+
+.col-5 {
+    width: 140px;
+}
