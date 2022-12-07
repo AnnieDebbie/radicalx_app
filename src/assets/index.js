@@ -12,6 +12,7 @@ export const icons={
   chart: require("./icons/chart.svg").default,
   more: require("./icons/more-2.svg").default,
   profile: require("./icons/profile-2user.svg").default,
+  arrowDown:require("./icons/arrow-square-down.svg").default
 }
 
 // BIG W: FINALLY FIGURED OUT HOW TO DYNAMICALLY IMPORT IMAGES
