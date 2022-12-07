@@ -3,37 +3,42 @@
     background: #F2F2F2;
     padding: 8px;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .segment-buttons {
     border: none;
-    background: #FFFFFF;
-    height: 32px;
-    text-transform: capitalize;
     border-radius: 8px;
-    padding: 6px;
+    height: 32px;
+    padding: 6px 12px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: top;
+    text-align: center;
 }
 
 .segment-buttons:nth-of-type(1) {
     margin-right: 12px;
 }
 
-.active {
-    color: #F2F2F2;
+.segment-buttons-inactive {
+    background: #FFFFFF;
+    color: #1E1E1E;
+}
+
+.segment-buttons-active {
+    color: #FFFFFF;
     background: #793EF5;
 }
 
+/* DATE */
 
 .date-container {
     width: 120px;
     overflow: hidden;
     position: relative;
-    background-color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    text-align: center;
-    padding: 6px;
 }
 
 
@@ -41,6 +46,14 @@
     position: absolute;
     left: 30px;
     bottom: 5px;
+}
+
+.date-container img{
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    bottom: 6px;
+    top: 6px;
 }
 
 .date {

@@ -1,6 +1,6 @@
 import InternshipInsights from "./InternshipInsights";
 import classes from "./InternshipInsights.module.css";
-import ProgressSegmentButtons from "./ProgressSegmentButtons";
+import ProgressSegmentButtons from "./SegmentControl/ProgressSegmentButtons";
 import AllCharts from "./Chart/Charts";
 
 const InsightsSection = () => {

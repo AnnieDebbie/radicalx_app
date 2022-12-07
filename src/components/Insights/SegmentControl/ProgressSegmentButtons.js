@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Segment.css";
+import { icons } from "../../../assets";
 
 const ProgressSegmentButtons = (props) => {
   const defaultIdx = 0;
@@ -18,7 +19,7 @@ const ProgressSegmentButtons = (props) => {
           <button
             key={idx}
             onClick={() => onSegmentClick(idx)}
-            className={`segment-buttons ${
+            className={`segment-buttons segment-buttons-${
               idx === activeIndex ? "active" : "inactive"
             }`}
           >
@@ -27,10 +28,13 @@ const ProgressSegmentButtons = (props) => {
         ))}
       </div>
 
-        <button className="date-container">
-          <span>Select dates</span>
-          <input className="date" type="date" />
-        </button>
+      <button
+        className={` date-container segment-buttons segment-buttons-inactive`}
+      >
+        <span>Select dates</span>
+        <img src={icons.calendar}/>
+        <input className="date" type="date" />
+      </button>
     </div>
   );
 };

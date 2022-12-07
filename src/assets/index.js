@@ -1,8 +1,6 @@
-export const assets = {
-  
-};
+export const assets = {};
 
-export const icons={
+export const icons = {
   dashboard: require("./icons/dashboard-3.svg").default,
   apprenteceships: require("./icons/medal-star.svg").default,
   internships: require("./icons/book.svg").default,
@@ -12,8 +10,9 @@ export const icons={
   chart: require("./icons/chart.svg").default,
   more: require("./icons/more-2.svg").default,
   profile: require("./icons/profile-2user.svg").default,
-  arrowDown:require("./icons/arrow-square-down.svg").default
-}
+  arrowDown: require("./icons/arrow-square-down.svg").default,
+  calendar: require("./icons/calendar-2.svg").default,
+};
 
 // BIG W: FINALLY FIGURED OUT HOW TO DYNAMICALLY IMPORT IMAGES
 /* so what was the issue? refer to issue vn
