@@ -6,6 +6,6 @@
     color:white;
     display: flex;
     align-items: center;
-    gap:5px
-
+    gap:5px;
+    text-transform: capitalize;
 }
