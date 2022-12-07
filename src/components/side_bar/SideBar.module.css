@@ -1,10 +1,10 @@
 .sidebar-container {
-    margin:8px 63px 23px 16px ;
+    margin:16px 63px 15px 16px ;
     width: 229px;
 }
 
 .sidebar-card {
     padding: 34px 20px;
-    height: 100vh;
+    height: 100%;
 }
 
