@@ -4,7 +4,7 @@ import { Bar } from "react-chartjs-2";
 import { qualifiedCandidatesBarData } from "./QualifiedCandidatesBarData";
 const options = {
   responsive: true,
-  //   maintainAspectRatio: false,
+    maintainAspectRatio: false,
   scales: {
     x: {
       grid: {
@@ -34,14 +34,18 @@ const QualifiedCandidatesBars = () => {
       {
         data: qualifiedCandidatesBarData.map((data) => data.numQualified),
         backgroundColor: "#C4C4C4",
-        hoverBackgroundColor:"#793EF5",
+        hoverBackgroundColor: "#793EF5",
         borderWidth: 1,
         borderRadius: 5,
       },
     ],
   });
 
-  return <Bar data={barData} options={options} />;
+  return (
+    <div className="bar-container">
+      <Bar data={barData} options={options} />
+    </div>
+  );
 };
 
 export default QualifiedCandidatesBars;
