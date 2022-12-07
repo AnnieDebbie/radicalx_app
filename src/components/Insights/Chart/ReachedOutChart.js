@@ -13,7 +13,7 @@ const ReachedOutChart = (props) => {
       text: [sum, "Reached Out"],
     },
     min: 0,
-    max: 1500,
+    max: 1750,
   };
 
   const { title, min, max } = optionsExtended;
@@ -29,6 +29,7 @@ const ReachedOutChart = (props) => {
     datasets: [
       {
         data: reachedOutData.map((data) => data.numberOfReaches),
+        // backgroundColor: "#793EF5",
         fill: {
           target: "origin",
           above: "rgb(102, 95, 239, 0.2)", // And blue below the origin

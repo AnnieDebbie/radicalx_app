@@ -14,7 +14,7 @@ const InterviewSetChart = (props) => {
       text: [sum, "Interview Set"],
     },
     min: 0,
-    max: 1350,
+    max: 1750,
   };
 
   const { title, min, max } = optionsExtended;

@@ -14,7 +14,7 @@ const QualifiedCandidatesChart = (props) => {
       text: [sum, "Qualified Candidates"],
     },
     min: 0,
-    max: 2100,
+    max: 2200,
   };
 
 

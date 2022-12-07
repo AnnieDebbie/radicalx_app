@@ -24,7 +24,6 @@ const options = {
     },
     y: {
       display: false,
-    
     },
   },
   plugins: {
@@ -39,7 +38,7 @@ const AllCharts = () => {
     <section className="chart-container">
       <TotalEnrollmentsChart options={options} />
       <CompletionsChart options={options} />
-      <QualifiedCandidatesChart options={options}/>
+      <QualifiedCandidatesChart options={options} />
       <ReachedOutChart options={options} />
       <InterviewSetChart options={options} />
       <HiredChart options={options} />

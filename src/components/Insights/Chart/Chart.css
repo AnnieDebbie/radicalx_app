@@ -1,12 +1,14 @@
 .chart-container {
     position: relative;
-    width: 132.04px;
+    width: 16%;
     height: 218px;
     display: flex;
     align-items: center;
+    margin-top: 16px;
 }
 
-.chart-container>.chart {
+.chart:not(:last-child) {
     border-right: 2px solid #EFEFEF;
     height: 174px;
+
 }

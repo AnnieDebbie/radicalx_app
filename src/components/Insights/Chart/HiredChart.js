@@ -14,7 +14,7 @@ const HiredChart = (props) => {
       text: [sum, "Hired"],
     },
     min: 0,
-    max: 700,
+    max: 900,
   };
 
   const { title, min, max } = optionsExtended;

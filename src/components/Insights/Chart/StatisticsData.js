@@ -49,25 +49,25 @@ export const completionData = [
 export const qualifiedCandidatesData = [
   {
     id: "q1",
-    qualifiedCandidates: 200,
+    qualifiedCandidates: 180,
     date: new Date(2022, 2, 1),
   },
 
-  { id: "q2", qualifiedCandidates: 170, date: new Date(2022, 2, 2) },
+  { id: "q2", qualifiedCandidates: 150, date: new Date(2022, 2, 2) },
 
   {
     id: "q3",
-    qualifiedCandidates: 150,
+    qualifiedCandidates: 130,
     date: new Date(2022, 2, 3),
   },
   { id: "q4", qualifiedCandidates: 120, date: new Date(2022, 2, 4) },
   {
     id: "q5",
-    qualifiedCandidates: 90,
+    qualifiedCandidates: 100,
     date: new Date(2022, 2, 5),
   },
-  { id: "q6", qualifiedCandidates: 70, date: new Date(2022, 2, 6) },
-  { id: "q7", qualifiedCandidates: 50, date: new Date(2022, 2, 7) },
+  { id: "q6", qualifiedCandidates: 90, date: new Date(2022, 2, 6) },
+  { id: "q7", qualifiedCandidates: 80, date: new Date(2022, 2, 7) },
 ];
 
 export const reachedOutData = [
