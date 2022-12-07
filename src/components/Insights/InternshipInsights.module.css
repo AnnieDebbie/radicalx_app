@@ -12,13 +12,19 @@
     padding: 16px;
 }
 
+.internship-insights-heading{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
 .internship-insights-content {
-    font-family: Space Grotesk;
-    font-style: "regular";
+    font-weight:400;
     font-size: 14px;
     line-height: 20px;
     vertical-align: "top";
     letter-spacing: 0.3px;
+    width: 229px;
 }
 
 .internship-insights-segment-charts{
