@@ -4,8 +4,8 @@ import { icons } from "../../assets/index";
 const TracksTableHeader = () => {
   return (
     <thead className="table-head">
-      <tr className="table-head-row">
-        <th className="table-header align-cols col-1">
+      <tr className="table-header-row">
+        <th className="align-cols col-1">
           <div className="table-header-div">
             <span>Internship Title</span>
             <img src={icons.arrowDown} alt="" />
