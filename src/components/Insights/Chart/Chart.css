@@ -4,7 +4,8 @@
     height: 218px;
     display: flex;
     align-items: center;
-    margin-top: 16px;
+    /* margin-top: 16px; */
+    padding:12px
 }
 
 .chart:not(:last-child) {
